@@ -107,7 +107,7 @@ ex.5: Create 4 loopbacks:
 
 import cli
 
-hi_1 = '''hostname PYDEVOP_AKO
+config_1 = '''hostname NETDEVOPS
 int loop 9
 ip add 9.9.9.9 255.255.255.255
 int loop 8
@@ -117,7 +117,7 @@ ip add 7.7.7.7 255.255.255.255
 end
 '''
 
-cli.configurep(hi_1)
+cli.configurep(config_1)
 
 ex.6
 
